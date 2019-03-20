@@ -109,9 +109,20 @@
         <div class="home">
             <div class="home_wrapper">
                 <div class="home_slider">
-                    <div class="home_slider_item">
-                        За <b>безопасность</b> необходимо <b class="green">платить,</b><br> а за ее отсутствие <b class="green">расплачиваться.</b>
-                        <div class="home_slider_name">/ Уинстон Черчиль /</div>
+                    <div class="slide-navigation"></div>
+                    <div class="owl-carousel">
+                        <div class="home_slider_item">
+                            За <b>безопасность</b> необходимо <b class="green">платить,</b><br> а за ее отсутствие <b class="green">расплачиваться.</b>
+                            <div class="home_slider_name">/ Уинстон Черчиль /</div>
+                        </div>
+                        <div class="home_slider_item">
+                            За <b>безопасность</b> необходимо <b class="green">платить,</b><br> а за ее отсутствие <b class="green">расплачиваться.</b>
+                            <div class="home_slider_name">/ Уинстон Черчиль /</div>
+                        </div>
+                        <div class="home_slider_item">
+                            За <b>безопасность</b> необходимо <b class="green">платить,</b><br> а за ее отсутствие <b class="green">расплачиваться.</b>
+                            <div class="home_slider_name">/ Уинстон Черчиль /</div>
+                        </div>
                     </div>
                 </div>
                 <div class="home_menu">
@@ -137,28 +148,28 @@
                     </div>
                 </div>
                 <div class="home_nav">
-                    <a href="#" class="home_nav_item active">
+                    <a href="#" class="home_nav_item tablinks active" onclick="openCategory(event, 'first')">
                         <span class="icon-camera"></span>
                         <span class="home_nav_item_name">
                             Системы<br>
                             видеонаблюдения
                         </span>
                     </a>
-                    <a href="#" class="home_nav_item">
+                    <a href="#" class="home_nav_item tablinks" onclick="openCategory(event, 'second')">
                         <span class="icon-firewall"></span>
                         <span class="home_nav_item_name">
                             Охранно-пожарная<br>
                             сигнализация
                         </span>
                     </a>
-                    <a href="#" class="home_nav_item">
+                    <a href="#" class="home_nav_item tablinks" onclick="openCategory(event, 'third')">
                         <span class="icon-scan"></span>
                         <span class="home_nav_item_name">
                             Системы контроля<br>
                             доступа
                         </span>
                     </a>
-                    <a href="#" class="home_nav_item">
+                    <a href="#" class="home_nav_item tablinks" onclick="openCategory(event, 'fourth')">
                         <span class="icon-connector"></span>
                         <span class="home_nav_item_name">
                             кабельная<br>
@@ -166,16 +177,42 @@
                         </span>
                     </a>
                 </div>
-                <div class="brands_block">
-                    <div class="brands_head">
-                        Авторизованный диллер
+                <div class="brands_block tab-content">
+                    <div id="first" class="tabcontent" style="display: block">
+                        <div class="flex">
+                            <a href="shop.html"><img src="img/brands/1.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/2.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/3.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/4.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/5.png" alt="alt"></a>
+                        </div>
                     </div>
-                    <div class="brands owl-carousel">
-                        <a href="shop.html"><img src="img/brands/1.png" alt="alt"></a>
-                        <a href="shop.html"><img src="img/brands/2.png" alt="alt"></a>
-                        <a href="shop.html"><img src="img/brands/3.png" alt="alt"></a>
-                        <a href="shop.html"><img src="img/brands/4.png" alt="alt"></a>
-                        <a href="shop.html"><img src="img/brands/5.png" alt="alt"></a>
+                    <div id="second" class="tabcontent">
+                        <div class="flex">
+                            <a href="shop.html"><img src="img/brands/1.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/3.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/5.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/2.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/4.png" alt="alt"></a>
+                        </div>
+                    </div>
+                    <div id="third" class="tabcontent">
+                        <div class="flex">
+                            <a href="shop.html"><img src="img/brands/3.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/4.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/5.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/1.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/2.png" alt="alt"></a>
+                        </div>
+                    </div>
+                    <div id="fourth" class="tabcontent">
+                        <div class="flex">
+                            <a href="shop.html"><img src="img/brands/2.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/1.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/3.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/5.png" alt="alt"></a>
+                            <a href="shop.html"><img src="img/brands/4.png" alt="alt"></a>
+                        </div>
                     </div>
                 </div>
             </div>

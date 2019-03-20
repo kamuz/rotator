@@ -19,6 +19,7 @@ gulp.task('css', function() {
         'src/css/owl-carousel.css',
         'src/css/owl-theme-default.css',
         'src/css/general.css',
+        'src/css/home.css',
         'src/css/icons.css',
         'src/css/reset.css',
         'src/css/sidebar.css',

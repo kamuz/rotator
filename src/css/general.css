@@ -136,7 +136,7 @@ input[type=radio]:checked+span:after {
     height: 50px;
     left: -19px;
     top: -1px;
-    background: url(../img/pl.png) no-repeat 0 0;
+    background: url(../img/corner-menu-item.png) no-repeat 0 0;
 }
 
 .info {
