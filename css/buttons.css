@@ -1,0 +1,41 @@
+/*--------------------------------------------------
+  BUTTONS
+--------------------------------------------------*/
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: all ease 0.4s;
+}
+
+.btn.half{
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    display: inline-block;
+    width: 45%;
+}
+
+.btn.green{
+    background: #1CC96C;
+}
+
+.btn.green:hover{
+    background: #1AB562;
+}
+
+.btn.gray{
+    background-color: #bdbdbd;
+}
+
+.btn.gray:hover{
+    background-color: #919191;
+}
+
+.btn.uppercase{
+    text-transform: uppercase;
+}
