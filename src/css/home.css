@@ -157,6 +157,7 @@
 }
 
 .home .tabcontent {
+    transition: all 1s;
     display: none; 
     border-top: none;
 }
