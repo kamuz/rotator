@@ -1,0 +1,21 @@
+{
+  "name": "rotator",
+  "version": "1.0.0",
+  "description": "Rotator HTML template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Kamuz",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
