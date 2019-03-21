@@ -24,7 +24,6 @@ aside {
 }
 
 .menu_left a {
-    transition: all 1s;
     position: relative;
 }
 
