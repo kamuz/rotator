@@ -43,6 +43,7 @@ aside {
     text-decoration: none;
     margin-bottom: 33px;
     text-align: center;
+    transition: all 1s;
 }
 
 .menu_left a:hover,
