@@ -16,15 +16,15 @@ gulp.task('html', function() {
 
 gulp.task('css', function() {
     return gulp.src([
+        'src/css/reset.css',
+        'src/css/icons.css',
+        'src/css/buttons.css',
         'src/css/owl-carousel.css',
         'src/css/owl-theme-default.css',
         'src/css/general.css',
         'src/css/home.css',
-        'src/css/icons.css',
-        'src/css/reset.css',
         'src/css/sidebar.css',
         'src/css/catalog.css',
-        'src/css/buttons.css',
         'src/css/media.css',
         ])
     .pipe(concat('main.min.css'))

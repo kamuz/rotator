@@ -90,6 +90,10 @@ jQuery(document).ready(function($) {
     });
 });
 
+/*--------------------------------------------------
+  TABS FOR BRANDS ON THE FRONT PAGE
+--------------------------------------------------*/
+
 function openCategory(evt, categoryName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");

@@ -24,6 +24,7 @@ aside {
 }
 
 .menu_left a {
+    transition: all 1s;
     position: relative;
 }
 
@@ -39,7 +40,7 @@ aside {
 .menu_left a {
     display: block;
     color: #fff;
-    font-size: 49px;
+    font-size: 40px;
     text-decoration: none;
     margin-bottom: 33px;
     text-align: center;
@@ -221,6 +222,19 @@ aside {
     color: rgba(52, 223, 131, 0.5);
 }
 
+/* .menu .menu_right,
+.menu .left_search {
+    display: none;
+    opacity: 0;
+    transition: display 1s;
+}
+
+.menu.open .menu_right ,
+.menu.open .left_search {
+    display: block;
+    opacity: 1;
+}
+ */
 .menu_right {
     padding-top: 145px;
 }
