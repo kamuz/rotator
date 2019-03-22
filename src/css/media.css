@@ -9,8 +9,8 @@
 
     .filter {
         position: absolute;
-        right: 43px;
-        top: 5px;
+        right: 5px;
+        top: -7px;
         background: #fff;
         border: 1px solid #1CC96C;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);

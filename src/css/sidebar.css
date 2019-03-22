@@ -27,6 +27,10 @@ aside {
     position: relative;
 }
 
+.menu_left .icon-search{
+    cursor: pointer;
+}
+
 .menu_left [class^="icon-"] .pl_head,
 .menu_left [class*=" icon-"] .pl_head {
     position: absolute;
@@ -41,9 +45,13 @@ aside {
     color: #fff;
     font-size: 40px;
     text-decoration: none;
-    margin-bottom: 33px;
+    padding: 15px 0;
     text-align: center;
     transition: all 1s;
+}
+
+.menu_left a.icon-price{
+    padding-top: 25px;
 }
 
 .menu_left a:hover,
@@ -71,7 +79,6 @@ aside {
 .menu_left div.menu_a {
     color: #fff;
     text-decoration: none;
-    margin-bottom: 23px;
     text-align: center;
     padding: 15px 0;
     position: relative;
@@ -175,6 +182,7 @@ aside {
 }
 
 .menu_ul>li>ul {
+    list-style-type: none;
     margin-top: 18px;
     margin-bottom: 16px;
 }
@@ -222,19 +230,15 @@ aside {
     color: rgba(52, 223, 131, 0.5);
 }
 
-/* .menu .menu_right,
-.menu .left_search {
+ .menu .menu_right{
     display: none;
-    opacity: 0;
-    transition: display 1s;
+    transition: left 1s;
 }
 
-.menu.open .menu_right ,
-.menu.open .left_search {
+.menu.open .menu_right {
     display: block;
-    opacity: 1;
 }
- */
+
 .menu_right {
     padding-top: 145px;
 }

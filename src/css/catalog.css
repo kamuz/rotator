@@ -3,10 +3,6 @@
 --------------------------------------------------*/
 
 .catalog {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -14,7 +10,7 @@
     overflow-y: auto;
     height: calc(100% - 90px);
     margin-right: -76px;
-    margin-left: 12px;
+    margin-left: 0;
     padding-right: 43px;
 }
 
@@ -26,10 +22,6 @@
 }
 
 .catalog_item_top {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -41,19 +33,11 @@
 }
 
 .catalog_item_center {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
 }
 
 .catalog_item_left {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -119,7 +103,6 @@
 
 .item_dis {
     font-size: 12px;
-    font-weight: 100;
 }
 
 .item_dis li {
@@ -145,10 +128,6 @@
 }
 
 .item_add_input {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,10 +137,6 @@
 }
 
 .item_add_input+div:not(.calc_block_item) {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -240,6 +215,15 @@
     color: #fff;
     background: #D7D7D7;
     border-color: #D7D7D7;
+}
+
+.pager a.next,
+.pager a.all{
+    border: 1px solid #D7D7D7;
+}
+
+.pager a.all{
+    line-height: 22px;
 }
 
 .filter {
@@ -578,10 +562,6 @@
 }
 
 .catalog {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -589,7 +569,6 @@
     overflow-y: auto;
     height: calc(100% - 90px);
     margin-right: -76px;
-    margin-left: 12px;
     padding-right: 43px;
 }
 
@@ -601,10 +580,6 @@
 }
 
 .catalog_item_top {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -616,19 +591,11 @@
 }
 
 .catalog_item_center {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
 }
 
 .catalog_item_left {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -694,7 +661,6 @@
 
 .item_dis {
     font-size: 12px;
-    font-weight: 100;
 }
 
 .item_dis li {
@@ -720,10 +686,6 @@
 }
 
 .item_add_input {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -733,10 +695,6 @@
 }
 
 .item_add_input+div:not(.calc_block_item) {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -845,10 +803,6 @@
 
 .main {
     height: calc(100% - 70px);
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -858,7 +812,7 @@
 
 .main_content {
     width: 100%;
-    padding: 24px 0 0 27px;
+    padding: 25px;
 }
 
 .main .filter {
@@ -870,10 +824,6 @@
 }
 
 .main_content_top {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     padding-bottom: 25px;
@@ -971,10 +921,6 @@ section.card .info .happy-partner .btn{
 }
 
 .brands.owl-carousel {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1059,10 +1005,6 @@ header {
     background: #2c2e38;
     font-size: 12px;
     color: #fff;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -1071,10 +1013,6 @@ header {
 }
 
 header>div {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
 }
@@ -1157,10 +1095,6 @@ nav a:hover {
     border-left: 1px solid #FF2600;
     margin-left: 46px;
     padding-left: 30px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: center;

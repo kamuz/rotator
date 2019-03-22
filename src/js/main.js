@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
       MENU
     --------------------------------------------------*/
 
-    /*$('.icon-menu.menu_a').on('click', function(e) {
+    $('.main-cat, .icon-search, .menu_right').hover(function(e) {
         e.preventDefault();
         $('aside').toggleClass('open');
     });
@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
         $('aside').addClass('open_menu');
     } else {
         $('aside').removeClass('open_menu');
-    }*/
+    }
 
     /*--------------------------------------------------
       SLIDERS
@@ -114,8 +114,10 @@ function openCategory(evt, categoryName) {
 
 function fullScreenOverlayMenu() {
     document.getElementById("fullscreenOverlayNav").style.width = "100%";
+    document.getElementById("fullscreenOverlayNav").style.opacity = "1";
 }
 
 function closeNav() {
     document.getElementById("fullscreenOverlayNav").style.width = "0%";
+    document.getElementById("fullscreenOverlayNav").style.opacity = "0";
 }

@@ -18,6 +18,7 @@ gulp.task('css', function() {
     return gulp.src([
         'src/css/reset.css',
         'src/css/icons.css',
+        'src/css/font-awesome.css',
         'src/css/buttons.css',
         'src/css/owl-carousel.css',
         'src/css/owl-theme-default.css',
