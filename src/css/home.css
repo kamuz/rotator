@@ -56,7 +56,8 @@
 }
 
 .home_menu {
-    max-width: 660px;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
@@ -100,11 +101,18 @@
 }
 
 .home_nav {
+    width: 80%;
+    margin: 0 auto;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #34df83;
+}
+
+.home .brands_block{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .home_nav_item {
