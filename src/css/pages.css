@@ -1,0 +1,71 @@
+/*--------------------------------------------------
+  SERVICES
+--------------------------------------------------*/
+
+.round-list {
+    list-style-type: none;
+    padding: 0 0 0 25px;
+    margin: 0 0 20px 0;
+    list-style-position: outside;
+}
+
+.round-list li{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.round-list li:before{
+    display: inline-block;
+    content: "\e911";
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #A0A1A7;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+}
+
+.form-gray-bg-25{
+    padding: 25px;
+    background-color: #F2F2F2;
+}
+
+.form-gray-bg-25 form{
+    margin-top: 25px;
+}
+
+.form-gray-bg-25 label{
+    display: block;
+    color: #A2A2A2;
+    font-size: 12px;
+}
+
+.form-gray-bg-25 input[type="text"],
+.form-gray-bg-25 textarea{
+    margin: 0 0 25px 0;
+    padding: 0;
+    display: block;
+    line-height: 25px;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #E3E3E3;
+    transition: all 1s;
+    background: none;
+}
+
+.form-gray-bg-25 input[type="text"]{
+    height: 25px;
+}
+
+.form-gray-bg-25 input[type="text"]:focus,
+.form-gray-bg-25 textarea:focus{
+    border-bottom-color: #1CC96C;
+}

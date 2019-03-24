@@ -2,6 +2,15 @@
   GENERAL
 --------------------------------------------------*/
 
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    min-height: 100%;
+    background: url(../img/bg.png) no-repeat top center;
+    overflow: hidden;
+}
+
 .img-responsive {
     display: inline-block;
     height: 100%;
@@ -10,13 +19,12 @@
     max-height: 100%;
 }
 
-html,
-body {
-    font-family: 'Roboto', sans-serif;
-    height: 100%;
-    min-height: 100%;
-    background: url(../img/bg.png) no-repeat top center;
-    overflow: hidden;
+.flex{
+    display: flex;
+}
+
+.flex.h.center{
+    justify-content: center;
 }
 
 .btn_white {
@@ -37,6 +45,15 @@ body {
 .btn_without:hover span {
     transition: all ease 0.4s;
     color: #FF2600;
+}
+
+.text-center{
+    text-align: center;
+    color: #FF2600;
+}
+
+.bottom-20{
+    margin-bottom: 20px;
 }
 
 input[type=checkbox],

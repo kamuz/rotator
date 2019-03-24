@@ -17,7 +17,10 @@ gulp.task('html', function() {
 gulp.task('css', function() {
     return gulp.src([
         'src/css/reset.css',
+        'src/css/grid.css',
+        'src/css/datepicker.css',
         'src/css/icons.css',
+        'src/css/pages.css',
         'src/css/font-awesome.css',
         'src/css/buttons.css',
         'src/css/owl-carousel.css',
@@ -38,6 +41,7 @@ gulp.task('css', function() {
 gulp.task('js', function() {
     return gulp.src([
         'src/js/jquery.js',
+        'src/js/datepicker.js',
         'src/js/owl-carousel.js',
         'src/js/main.js',
         ])

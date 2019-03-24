@@ -88,6 +88,8 @@ jQuery(document).ready(function($) {
         navContainer: '.home_slider .slide-navigation',
         navText: ['<span class="arrow arrow-left"></span>', '<span class="arrow arrow-right"></span>'],
     });
+
+    $('.date-picker').datepicker();
 });
 
 /*--------------------------------------------------
