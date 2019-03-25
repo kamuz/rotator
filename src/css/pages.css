@@ -5,7 +5,7 @@
 .round-list {
     list-style-type: none;
     padding: 0 0 0 25px;
-    margin: 0 0 20px 0;
+    margin: 0 0 35px 0;
     list-style-position: outside;
 }
 
@@ -35,6 +35,7 @@
 .form-gray-bg-25{
     padding: 25px;
     background-color: #F2F2F2;
+    margin-bottom: 35px;
 }
 
 .form-gray-bg-25 form{
