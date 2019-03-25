@@ -3,4 +3,4 @@
 - [Home](https://kamuz.github.io/rotator/index.html)
 - [Info](https://kamuz.github.io/rotator/info.html)
 - [Catalog](https://kamuz.github.io/rotator/shop.html)
-- [Producers](https://kamuz.github.io/rotator/producers.html)
+- [Services](https://kamuz.github.io/rotator/services.html)
