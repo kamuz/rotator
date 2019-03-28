@@ -53,15 +53,51 @@ body {
 
 .text-center{
     text-align: center;
+}
+
+.half{
+    width: 50%;
+    margin: 0 auto
+}
+
+.red{
     color: #FF2600;
+}
+
+.top-20{
+    margin-top: 20px;
+}
+
+.top-30{
+    margin-top: 30px;
+}
+
+.top-45{
+    margin-top: 45px;
 }
 
 .bottom-20{
     margin-bottom: 20px;
 }
 
+.bottom-0{
+    margin-bottom: 0;
+}
+
+.bottom-30{
+    margin-bottom: 30px;
+}
+
+.bottom-45{
+    margin-bottom: 45px;
+}
+
 .right-10{
     margin-right: 10px;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 input[type=checkbox],

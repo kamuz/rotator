@@ -34,9 +34,6 @@
         border-color: #1CC96C;
     }
 
-    .main {
-        /*padding-right: 50px;*/
-    }
 }
 
 @media (max-width: 1450px) {
@@ -252,6 +249,10 @@
 @media (max-width: 800px) {
     nav a {
         margin: 0 12px;
+    }
+
+    .half{
+        width: 100%;
     }
 }
 

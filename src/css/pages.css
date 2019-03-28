@@ -70,3 +70,16 @@
 .form-gray-bg-25 textarea:focus{
     border-bottom-color: #1CC96C;
 }
+
+/*--------------------------------------------------
+  DELIVERY
+--------------------------------------------------*/
+
+.delivery-logo{
+    height: 122px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
