@@ -316,9 +316,6 @@
 
 .card .card {
     height: calc(100% - 35px);
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
     padding-top: 16px;
     border-top: 4px solid #F2F2F2;
 }

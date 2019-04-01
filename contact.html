@@ -4,8 +4,8 @@
     <meta charset=utf-8>
     <title>Главная</title>
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link href="css/main.min.css" rel="stylesheet" type="text/css" />
-    <script src="js/main.min.js"></script>
 </head>
 <body>
     <header>
@@ -131,37 +131,58 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="info">
-                        <h1>Контактная информация:</h1>
-                        <p>Уважаемые клиенты, наши специалисты всегда готовы оказать квалифицированную консультацию по подбору оборудования, условиям доставки, стоимости монтажа, гарантийным обязательствам и любым другим возникшим у Вас вопросам.</p>
-                        <div class="contact-details">
-                            <ul>
-                                <li>(044) 220-00-88 (многоканальный)</li>
-                                <li>info@rotator.com.ua</li>
-                                <li>г. Киев, ул. Дружковская 10</li>
-                            </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="info">
+                                <div class="title_corner">Контактная информация:</div>
+                                <div class="content">
+                                    <p>Уважаемые клиенты, наши специалисты всегда готовы оказать квалифицированную консультацию по подбору оборудования, условиям доставки, стоимости монтажа, гарантийным обязательствам и любым другим возникшим у Вас вопросам.</p>
+                                    <div class="contact-details">
+                                        <ul>
+                                            <li><img src="img/phone.svg" alt="alt">(044) 220-00-88 (многоканальный)</li>
+                                            <li><img src="img/email.svg" alt="alt">info@rotator.com.ua</li>
+                                            <li><img src="img/marker.svg" alt="alt">г. Киев, ул. Дружковская 10</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-form form-gray-bg-25">
+                                <h3 class="uppercase">Свяжитесь с Нами:</h3>
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label for="full-name">Ваше Имя* </label>
+                                            <input type="text" name="full-name" id="full-name">
+                                            <label for="subject">Тема сообщения </label>
+                                            <input type="text" name="subject" id="subject">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="phone">Ваш Телефон</label>
+                                            <input type="text" name="phone" id="phone">
+                                            <label for="email">Ваш Email* </label>
+                                            <input type="email" name="email" id="email">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <textarea name="message" id="message" cols="30" rows="3"></textarea>
+                                        <div class="flex h center">
+                                            <button class="btn green" type="submit">Отправить</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-form">
-                        <h3>Свяжитесь с Нами:</h3>
-                        <form action="#">
-                            <div class="first-row">
-                                <label for="full-name">Ваше Имя* </label>
-                                <input type="text" name="full-name" id="full-name">
-                                <label for="subject">Тема сообщения </label>
-                                <input type="text" name="subject" id="subject">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="contact-google-map">
+                                <div id="map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5080.43743874838!2d30.409259339147944!3d50.45565167880497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc43a4ddf421%3A0x240f99654363d7be!2sDruzhkivska+St%2C+10%2C+Kyiv%2C+02000!5e0!3m2!1sen!2sua!4v1554117708158!5m2!1sen!2sua" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
                             </div>
-                            <div class="second-row">
-                                <label for="phone">Ваш Телефон</label>
-                                <input type="text" name="phone" id="phone">
-                                <label for="email">Ваш Email* </label>
-                                <input type="email" name="email" id="email">
-                            </div>
-                            <div>
-                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                                <button type="submit">Отправить</button>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -174,6 +195,7 @@
             </div>
         </div>
     </div>
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP1lvNVYgHVwxMGa0pjlscCxWHJu8er2U&callback=initMap" async defer></script>
+<script src="js/main.min.js"></script>
 </body>
 </html>
