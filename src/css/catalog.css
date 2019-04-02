@@ -310,6 +310,28 @@
     margin-left: 10px;
 }
 
+.filter.card{
+    padding: 25px;
+    height: 480px;
+}
+
+.filter.card .price-border{
+    font-size: 16px;
+    border: 2px solid #545669;
+    height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 43px;
+    margin-bottom: 5px;
+    font-size: 1;
+    color: #BDBDBD;
+    font-weight: 600;
+}
+
+.filter.card .price-border.partner{
+    color: #1CC96C;
+}
+
 .card {
     background: #fff;
 }
@@ -320,7 +342,7 @@
     border-top: 4px solid #F2F2F2;
 }
 
-.card_left {
+.col-md-4 {
     overflow-x: auto;
     height: 100%;
     padding-right: 7px;
@@ -331,7 +353,7 @@
     padding: 12px 10px;
     background: #F2F2F2;
     color: #3E3E3E;
-    margin-top: 9px;
+    margin: 0 0 10px 0;
 }
 
 .card_left_top a {
@@ -344,12 +366,12 @@
     display: inline-block;
 }
 
-.card_left .catalog_item {
+.col-md-4 .catalog_item {
     margin: 9px 0 0 0;
 }
 
-.card_left .catalog_item_left,
-.card_left .item_dis {
+.col-md-4 .catalog_item_left,
+.col-md-4 .item_dis {
     width: 100%;
 }
 
@@ -432,7 +454,7 @@
 }
 
 .calc_top {
-    text-align: right;
+    text-align: left;
     padding-bottom: 35px;
 }
 
@@ -473,7 +495,7 @@
     text-transform: uppercase;
     text-align: right;
     padding-right: 4px;
-    border: 2px solid #545669;
+    /*border: 2px solid #545669;*/
     border-right: none;
 }
 
@@ -505,13 +527,11 @@
 
 .calc_block textarea {
     border: 2px solid #545669;
-    min-height: 155px;
     padding: 14px;
     background: none;
     display: block;
     width: 100%;
     font-size: 14px;
-    color: #fff;
     margin-bottom: 10px;
 }
 
@@ -573,7 +593,20 @@
     flex-basis: calc(50% - 14px);
     background: #FFF;
     padding: 18px 18px 18px 29px;
-    margin: 0 7px 15px 7px;
+    margin: 0 0 10px 0;
+}
+
+.col-md-4 .catalog_item_left,
+.col-md-4 .item_dis {
+    width: 100%;
+}
+
+.catalog_item:nth-child(even){
+    margin-left: 10px;
+}
+
+.col-md-4 .catalog_item {
+    margin: 0 0 10px 0;
 }
 
 .catalog_item_top {
@@ -704,6 +737,11 @@
     color: #88898E;
     text-align: center;
     text-decoration: none !important;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.col-md-4 .item_add_input+div:not(.calc_block_item) a{
     font-size: 19px;
 }
 
@@ -1094,4 +1132,44 @@ nav a:hover {
 
 .date span {
     padding: 0 14px;
+}
+
+.calc .calc_block_item{
+    display: block;
+}
+
+.calc .calc_block_item>*{
+    width: 100%;
+}
+
+.calc .buttons{
+    padding: 0 !important;
+}
+
+.calc .buttons .btn{
+    border-radius: 3px !important;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    line-height: 37px;
+    width: 49%;
+    font-size: 14px;
+}
+
+.calc .buttons .btn span{
+    position: relative;
+    top: 2px;
+}
+
+.btn.to-favorite{
+    border: 2px solid #DEDEDE;
+    color: #BDBDBD;
+    background: #fff !important;
+}
+
+.btn.to-calc{
+    color: #fff !important;
+    background: #1CC96C !important;
+    border: 2px solid #1CC96C;
 }

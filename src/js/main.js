@@ -90,6 +90,23 @@ jQuery(document).ready(function($) {
     });
 
     $('.date-picker').datepicker();
+
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+                window.location.hash = hash;
+            });
+        }
+    });
+
+    $('.tab-nav a').click(function(){
+        $('.tab-nav a').removeClass('active');
+        $(this).addClass('active');
+    });
 });
 
 /*--------------------------------------------------
