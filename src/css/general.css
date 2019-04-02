@@ -76,12 +76,12 @@ body {
     margin-top: 45px;
 }
 
-.bottom-20{
-    margin-bottom: 20px;
-}
-
 .bottom-0{
     margin-bottom: 0;
+}
+
+.bottom-20{
+    margin-bottom: 20px;
 }
 
 .bottom-30{
@@ -156,6 +156,11 @@ input[type=radio]:checked+span:after {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+.btn_right_sidebar.producer{
+    top: 40px;
+    right: 10px;
 }
 
 .btn_right_sidebar:after {

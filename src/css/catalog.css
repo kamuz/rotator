@@ -772,27 +772,18 @@
     border-color: #D7D7D7;
 }
 
-.fabri {
-    height: calc(100% - 90px);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    overflow-y: auto;
-}
-
-.fabri_item {
+.producer_item {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    min-width: 240px;
+    width: 100%;
     min-height: 120px;
     background: #F2F2F2;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
-.fabri_item>img {
+.producer_item>img {
     position: absolute;
     bottom: 7px;
     left: 7px;
